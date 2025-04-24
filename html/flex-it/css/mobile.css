@@ -1,6 +1,16 @@
 .mobile-block{
     height: 400px !important;
 }
+.logo-mobile{
+    max-height: 250px !important;
+    max-width: 250px !important;
+}
+@media screen and (max-width: 1400px) {
+    .logo-mobile{
+        max-height: 150px !important;
+        max-width: 150px !important;
+    }
+}
 @media screen and (max-width: 767px) {
     .mobile-img-first{
         width: 500px;
